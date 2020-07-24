@@ -27,7 +27,7 @@ class AppFixtures extends Fixture
     
         $faker = Factory::create('fr_FR');
 
-        for($i=0;$i<3;$i++) {
+        for($i=0;$i<4;$i++) {
 
             $profil = new Profil();
 
